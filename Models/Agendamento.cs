@@ -17,8 +17,7 @@ namespace Agenda_Pim.Models
         public DateTime HorarioFinal { get; set; }
        // [ForeignKey("IdAuditorio")]
         public Auditorios IdAuditorio { get; set; }
-        public string DescricaoEvento { get; set; }
-        public bool SttsTrigger { get; set; }
+        public string DescricaoEvento { get; set; }        
         public int Proprietario { get; set; }
         //[ForeignKey("IdUsuario")]
         public Usuario IdUsuario { get; set; }

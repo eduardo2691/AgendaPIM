@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using NHibernate.Mapping;
 
 namespace Agenda_Pim.Migrations
 {
@@ -80,6 +81,7 @@ namespace Agenda_Pim.Migrations
                 table: "Agendamentos",
                 column: "IdUsuario1");
         }
+       
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {

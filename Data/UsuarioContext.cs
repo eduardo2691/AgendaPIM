@@ -15,9 +15,9 @@ namespace Agenda_Pim.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Password=1234;Persist Security Info=True;User ID=sa;Initial " +
-                                         "Catalog=AgendaPim;Data " +
-                                        "Source=LAPTOP-91SB1VL3\\SQLEXPRESS");
+            optionsBuilder.UseSqlServer("Password=123;Persist Security Info=True;User ID=sa;Initial " +
+                                         "Catalog=AGENDA_SQL;Data " +
+                                        "Source=LAPTOP-9PCQ3VHJ\\SQLEXPRESS");
         }
     }
 }
